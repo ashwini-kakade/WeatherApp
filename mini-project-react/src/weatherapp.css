@@ -1,0 +1,85 @@
+/* General Layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-app {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: rgb(47, 42, 42);
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* SearchBox Component Styles */
+.SearchBox {
+  margin-bottom: 2rem;
+}
+
+.SearchBox input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 70%;
+  margin-right: 5px;
+}
+
+.SearchBox button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff9f43;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.SearchBox button:hover {
+  background-color: #ee5253;
+}
+
+/* InfoBox Component Styles */
+.InfoBox .card {
+  background: white;
+  color: #333;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.InfoBox h2 {
+  margin: 0.5rem 0;
+  color: #2d3436;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.weather-details p {
+  margin: 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}

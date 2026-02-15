@@ -1,0 +1,45 @@
+/* Centers the Card on the page */
+.info-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* Styles the container inside CardContent */
+.weather-info-container {
+    text-align: left; /* Makes the stats easier to read */
+}
+
+/* Styles the individual weather stats */
+.weather-info-container p {
+    display: flex;
+    justify-content: space-between; /* Pushes Label to left, Value to right */
+    align-items: center;
+    margin: 8px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* Styling the bold values */
+.weather-info-container b {
+    color: #0c4e90; /* MUI Blue */
+    font-weight: 600;
+}
+
+/* Styling the description text */
+.description-text {
+    text-transform: capitalize;
+    font-style: italic;
+    color: #080000;
+    margin-top: 15px !important;
+    text-align: center;
+}
+
+/* Weather Icon sizing */
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
