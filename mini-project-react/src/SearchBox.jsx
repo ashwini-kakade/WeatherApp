@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 
 export default function SearchBox({ updateWeatherInfo }) {
     const API_URL = "https://api.openweathermap.org/data/2.5/weather"
-    const API_KEY = "38d8a1aa2d0026bcf371764213b39351";
+    const API_KEY = import.meta.env.VITE_API_KEY;
 
     let getWeatherInfo = async (city) => {
 
